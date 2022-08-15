@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/schufi-mafi/static/css/main.a617e044.chunk.css",
-    "main.js": "/schufi-mafi/static/js/main.18d1eb07.chunk.js",
-    "main.js.map": "/schufi-mafi/static/js/main.18d1eb07.chunk.js.map",
+    "main.js": "/schufi-mafi/static/js/main.be182092.chunk.js",
+    "main.js.map": "/schufi-mafi/static/js/main.be182092.chunk.js.map",
     "runtime-main.js": "/schufi-mafi/static/js/runtime-main.148f3cb7.js",
     "runtime-main.js.map": "/schufi-mafi/static/js/runtime-main.148f3cb7.js.map",
     "static/js/2.7d70e383.chunk.js": "/schufi-mafi/static/js/2.7d70e383.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.148f3cb7.js",
     "static/js/2.7d70e383.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.18d1eb07.chunk.js"
+    "static/js/main.be182092.chunk.js"
   ]
 }
