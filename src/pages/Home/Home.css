@@ -1,0 +1,12 @@
+.App-header {
+    background-color:#090909;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.App-main {
+  }
+
+.App-footer {
+    min-height: 5vh; 
+  }  
