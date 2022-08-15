@@ -2,7 +2,6 @@ import React from 'react';
 import './Jornalist.css';
 import Footer from '../../components/footer/footer';
 import {
-  Container,
   Row,
   Col,
 } from 'react-bootstrap';

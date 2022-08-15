@@ -4,7 +4,6 @@ import                        'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import                        './JornalistItem.css'
 import {faExternalLink} from "@fortawesome/free-solid-svg-icons"
-import schufimafi from "../../assets/img/schufimafi.png";
 
 
 const JornalistItem = props => {

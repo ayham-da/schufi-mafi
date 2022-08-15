@@ -2,14 +2,12 @@ import React from 'react';
 import '../AboutMe/AboutMe.css';
 import AboutUs from '../../components/AboutUs/AboutUs';
 import {
-  Container,
   Row,
   Col,
 } from 'react-bootstrap';
 import Animate from 'react-smooth';
 import {Helmet} from 'react-helmet';
 import Team from "../../components/Team1/Team";
-import Footer from "../../components/footer/footer";
 
 const AboutMe = () => {
   return (

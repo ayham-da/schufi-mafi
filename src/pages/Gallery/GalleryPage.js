@@ -1,4 +1,3 @@
-import WSPGallery from '../../components/Gallery/WSPGallery';
 import './GalleryPage.css';
 
 import community1 from '../../assets/gallery/Community1.jpg'

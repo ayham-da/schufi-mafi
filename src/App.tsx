@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Loading from "./pages/Loading/Loading";
-import Home1 from "./pages/Home/Home1";
+import Home from "./pages/Home/Home";
 import Gallery from './pages/Gallery/GalleryPage'
 import AboutMe from "./pages/AboutMe/AboutMe";
 import MyProjekt from "./pages/MyProjekt/MyProjekt";
@@ -20,13 +20,13 @@ function App(): JSX.Element {
         <MainHeader />
         <Switch>
           <Route path="/schufimafi-Projekt" exact>            <Loading />         </Route>
-          <Route path="/schufimafi" >       <Home1 />            </Route>
+          <Route path="/schufimafi" >       <Home />            </Route>
           <Route path="/überuns" >          <AboutMe />         </Route>
           <Route path="/events" >           <MyProjekt />       </Route>
           <Route path="/jornalist" >        <Jornalist />       </Route>
           <Route path="/gallery">           <Gallery />         </Route>
           <Route path="/kontakt">           <Contact />         </Route>
-          <Route path="*" >                 <Home1 />            </Route>
+          <Route path="*" >                 <Home />            </Route>
 
 
         </Switch>

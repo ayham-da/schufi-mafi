@@ -1,8 +1,6 @@
 import React from 'react';
-import { LoremIpsum } from 'react-lorem-ipsum';
 import './Team.css';
 import {Card, Image} from "react-bootstrap";
-import schufimafi from "../../assets/img/schufimafi.png";
 
 
 

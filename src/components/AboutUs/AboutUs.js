@@ -1,9 +1,7 @@
 import React from 'react';
 import './style.css';
-import {Container, Row, Col, Image, Card} from 'react-bootstrap';
-import ReactTypingEffect from "react-typing-effect";
+import {Row, Col, Image, Card} from 'react-bootstrap';
 import aboutUs from "../../assets/img/aboutUs.jpg";
-import schufimafi from "../../assets/img/schufimafi.png";
 import SocialIcons from "../social_icons";
 
 

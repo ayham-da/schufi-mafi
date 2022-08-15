@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import { Typography } from '@material-ui/core';
-import {Card, Container, Image, Row} from "react-bootstrap";
+import {Card, Image, Row} from "react-bootstrap";
 import ContactStyles from "./KontaktStyle";
-import { CardContent, CardActionArea, CardMedia } from '@material-ui/core';
+import { CardContent, CardActionArea } from '@material-ui/core';
 import firstImg from '../../assets/img/schufimafi.png';
 import { FaRoute } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
@@ -13,8 +13,6 @@ import Email from '@material-ui/icons/Email';
 
 import Animate from "react-smooth";
 import SocialIcons from "../social_icons";
-import schufimafi from "../../assets/img/schufimafi.png";
-
 
 
 const Contact = () => {
