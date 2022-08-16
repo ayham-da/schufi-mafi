@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/schufi-mafi/static/css/main.e2a01227.chunk.css",
-    "main.js": "/schufi-mafi/static/js/main.89f749c4.chunk.js",
-    "main.js.map": "/schufi-mafi/static/js/main.89f749c4.chunk.js.map",
+    "main.js": "/schufi-mafi/static/js/main.25e2268d.chunk.js",
+    "main.js.map": "/schufi-mafi/static/js/main.25e2268d.chunk.js.map",
     "runtime-main.js": "/schufi-mafi/static/js/runtime-main.148f3cb7.js",
     "runtime-main.js.map": "/schufi-mafi/static/js/runtime-main.148f3cb7.js.map",
     "static/css/2.f88c2240.chunk.css": "/schufi-mafi/static/css/2.f88c2240.chunk.css",
@@ -12,16 +12,20 @@
     "static/css/2.f88c2240.chunk.css.map": "/schufi-mafi/static/css/2.f88c2240.chunk.css.map",
     "static/css/main.e2a01227.chunk.css.map": "/schufi-mafi/static/css/main.e2a01227.chunk.css.map",
     "static/js/2.b86b3a0f.chunk.js.LICENSE.txt": "/schufi-mafi/static/js/2.b86b3a0f.chunk.js.LICENSE.txt",
+    "static/media/Ayla1.4aae9f8e.jpg": "/schufi-mafi/static/media/Ayla1.4aae9f8e.jpg",
+    "static/media/Basel1.4760f19e.jpg": "/schufi-mafi/static/media/Basel1.4760f19e.jpg",
     "static/media/Community1.d05d58f8.jpg": "/schufi-mafi/static/media/Community1.d05d58f8.jpg",
     "static/media/Community2.ae641c77.jpg": "/schufi-mafi/static/media/Community2.ae641c77.jpg",
     "static/media/Community3.930f3559.jpg": "/schufi-mafi/static/media/Community3.930f3559.jpg",
     "static/media/Community4.9df4a068.jpg": "/schufi-mafi/static/media/Community4.9df4a068.jpg",
     "static/media/Hakaya1.ec34e745.jpg": "/schufi-mafi/static/media/Hakaya1.ec34e745.jpg",
+    "static/media/Heba1.ff7ac0cd.jpg": "/schufi-mafi/static/media/Heba1.ff7ac0cd.jpg",
     "static/media/IstSyrienSicher1.ca237345.jpg": "/schufi-mafi/static/media/IstSyrienSicher1.ca237345.jpg",
     "static/media/IstSyrienSicher2.93189be2.jpg": "/schufi-mafi/static/media/IstSyrienSicher2.93189be2.jpg",
     "static/media/Iwan.0d9abb8a.jpg": "/schufi-mafi/static/media/Iwan.0d9abb8a.jpg",
     "static/media/Layali.0dc44e15.png": "/schufi-mafi/static/media/Layali.0dc44e15.png",
     "static/media/Musiqana1.c8870377.png": "/schufi-mafi/static/media/Musiqana1.c8870377.png",
+    "static/media/Wesam1.62b22c50.jpg": "/schufi-mafi/static/media/Wesam1.62b22c50.jpg",
     "static/media/Workshop1.31816fb3.jpg": "/schufi-mafi/static/media/Workshop1.31816fb3.jpg",
     "static/media/Workshop2.429891a1.jpg": "/schufi-mafi/static/media/Workshop2.429891a1.jpg",
     "static/media/Yalla1.ed72a645.jpg": "/schufi-mafi/static/media/Yalla1.ed72a645.jpg",
@@ -32,21 +36,17 @@
     "static/media/Yalla6.ca0825f9.jpg": "/schufi-mafi/static/media/Yalla6.ca0825f9.jpg",
     "static/media/aboutUs.127b8d3c.jpg": "/schufi-mafi/static/media/aboutUs.127b8d3c.jpg",
     "static/media/article1.f4335125.png": "/schufi-mafi/static/media/article1.f4335125.png",
-    "static/media/ayla.99451be3.png": "/schufi-mafi/static/media/ayla.99451be3.png",
     "static/media/baraa.1fd67261.png": "/schufi-mafi/static/media/baraa.1fd67261.png",
-    "static/media/basel.89547e14.png": "/schufi-mafi/static/media/basel.89547e14.png",
-    "static/media/heba.0f22fdaf.png": "/schufi-mafi/static/media/heba.0f22fdaf.png",
     "static/media/nabel.ee97a372.png": "/schufi-mafi/static/media/nabel.ee97a372.png",
     "static/media/samer.d5f82aea.png": "/schufi-mafi/static/media/samer.d5f82aea.png",
-    "static/media/sara.7d213867.png": "/schufi-mafi/static/media/sara.7d213867.png",
-    "static/media/Loading.css": "/schufi-mafi/static/media/schufimafi.dc51232b.png",
-    "static/media/wesam.50a3c7d6.png": "/schufi-mafi/static/media/wesam.50a3c7d6.png"
+    "static/media/sara1.e8483e56.jpg": "/schufi-mafi/static/media/sara1.e8483e56.jpg",
+    "static/media/Loading.css": "/schufi-mafi/static/media/schufimafi.dc51232b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.148f3cb7.js",
     "static/css/2.f88c2240.chunk.css",
     "static/js/2.b86b3a0f.chunk.js",
     "static/css/main.e2a01227.chunk.css",
-    "static/js/main.89f749c4.chunk.js"
+    "static/js/main.25e2268d.chunk.js"
   ]
 }
