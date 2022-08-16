@@ -33,12 +33,10 @@ const MainHeader = props => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav activeKey={location} className="nav-link">
             <Nav.Link style={{ display: "flex", justifyContent: "center" }} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/events">Events</Nav.Link>
-            <Nav.Link style={{ display: "flex", justifyContent: "center",}} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/jornalist">Jornalist</Nav.Link>
+            <Nav.Link style={{ display: "flex", justifyContent: "center"}} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/jornalist">Jornalist</Nav.Link>
             <Nav.Link style={{ display: "flex", justifyContent: "center" }} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/gallery">Gallery</Nav.Link>
             <Nav.Link style={{ display: "flex", justifyContent: "center" }} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/überuns">Über uns</Nav.Link>
             <Nav.Link style={{ display: "flex", justifyContent: "center" }} onClick={closeNav} className="text-white " activeClassName="active" as={NavLink} to="/kontakt">Kontakt</Nav.Link>
-
-
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -46,4 +44,3 @@ const MainHeader = props => {
   );
 };
 export default MainHeader
-// export default Toolbar;
