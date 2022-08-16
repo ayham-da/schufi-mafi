@@ -9,10 +9,18 @@
 .App-main{
     margin: auto;
 }
+.App-home-main {
+    margin: 0 !important;
+}
 .home-main-top{
     background-color: white;
     margin: auto;
     display: block;
+    padding: 0 !important;
+}
+
+.home-main-body {
+    padding: 0 !important;
 }
 
 .home-main-img{
