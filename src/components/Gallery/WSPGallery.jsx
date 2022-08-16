@@ -9,6 +9,8 @@ import {
 
 import './wsp-gallery.css'
 import ReadMore from "./readMore";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 const WSPGallery = ({galleryImages}) => {
 
@@ -40,20 +42,28 @@ const WSPGallery = ({galleryImages}) => {
   }
 
   return (
-    <div onBlur={handleCloseModal}>
-
+    <div>
       {openModal && 
-        <div className='sliderWrap' onBlur={handleCloseModal}>
-          <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}  />
-          <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
-          <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
-          <div className='fullScreenImage row bg-dark' onBlur={handleCloseModal}>
-            <img className='col-12' src={galleryImages[slideNumber].img} alt='' onBlur={handleCloseModal}/>
-            <p className="col-12 text-white p-5">
-              Das Zusammenbringen von Menschen mit Fluchtgeschichte liegt uns am Herz. Dafür haben wir einen Treffort im syrischen Diaspora etabliert, wo man seine Meinung frei äußert und seine individuelle Biographie teilt. Das erreichen wir durch die Einladung vom großen Figuren der Syrischen Gesellschaft wie Schauspieler*innen, Intellektueller*innen oder Youtuber*innen. Diese Figuren werden von Syrer*innen als erfolgreiche Vorbilde betrachtet. Außerdem werden die Gäste durch ein einzigartiges Konzept ein unvergleichbares Erlebnis leben. Das Konzept der Veranstaltung lässt sich so konkret wie folgend ablaufen: Zunächst wird der/die Künstler*in mit einem Auftritt (Eine Rede, Ein Solo Theaterstück, Eine interaktive Aktion.....) den Abend beginnen. Dann wird ein Interview mit ihm/ihr zu seinem Werdegang geführt. Schließlich wird es eine Diskussionsrunde mit dem Publikum geben.
-            </p>
-          </div>
-        </div>
+          <Modal
+              className='sliderWrap'
+              show={openModal}
+                 onHide={handleCloseModal}
+                 animation={false}
+                 size="lg"
+                 aria-labelledby="contained-modal-title-vcenter"
+                 centered>
+            <Modal.Header closeButton>
+              <Modal.Title>{galleryImages[slideNumber].title}</Modal.Title>
+            </Modal.Header>
+            <Modal.Body className='ModalBody'>
+              <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
+              <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
+              <img className='col-12' src={galleryImages[slideNumber].img} alt='' onBlur={handleCloseModal}/>
+            </Modal.Body>
+            <Modal.Footer>
+              {galleryImages[slideNumber].description}
+            </Modal.Footer>
+          </Modal>
       }
 
       {/* <br />
