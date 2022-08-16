@@ -16,7 +16,7 @@ import MainHeader from './components/Nav/MainHeader1'
 
 function App(): JSX.Element {
   return (
-      <Router>
+      <Router basename='/schufi-mafi'>
         <MainHeader />
         <Switch>
           <Route path="/schufimafi-Projekt" exact>            <Loading />         </Route>
