@@ -9,14 +9,14 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import wesam from "../../assets/img/Team/wesam.png"
-import basel from "../../assets/img/Team/basel.png"
-import heba from "../../assets/img/Team/heba.png"
+import wesam from "../../assets/img/Team/Wesam1.jpg"
+import basel from "../../assets/img/Team/Basel1.jpg"
+import heba from "../../assets/img/Team/Heba1.jpg"
 import samer from "../../assets/img/Team/samer.png"
-import sara from "../../assets/img/Team/sara.png"
+import sara from "../../assets/img/Team/sara1.jpg"
 import baraa from "../../assets/img/Team/baraa.png"
 import nabel from "../../assets/img/Team/nabel.png"
-import ayla from "../../assets/img/Team/ayla.png"
+import ayla from "../../assets/img/Team/Ayla1.jpg"
 
 
 const data = [
