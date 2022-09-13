@@ -5,6 +5,7 @@ const useStyles = makeStyles((theme) => ({
     width:"95%",
     maxWidth: "100%",
     minWidth:"350px",
+    minHeight: "65vh !important",
     margin: "50px 15px 200px 30px"
   },
   headImg: {

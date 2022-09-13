@@ -1,4 +1,5 @@
 import React from 'react';
+import './Kontakt.css'
 import { Helmet } from "react-helmet";
 import { Typography } from '@material-ui/core';
 import {Card, Image, Row} from "react-bootstrap";
@@ -29,7 +30,7 @@ const Contact = () => {
                     <Row className={classes.rowStyle}>
                         <Card className={classes.root}>
                             <CardContent>
-                                <Image src={firstImg} className="home-main-img" alt="Image of SCHU FI MA FI"/>
+                                <Image src={firstImg} className="kontakt-main-img" alt="Image of SCHU FI MA FI"/>
 
                                 <Typography
                                     className={classes.headMap}>
